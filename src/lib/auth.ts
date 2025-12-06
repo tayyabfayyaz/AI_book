@@ -20,4 +20,4 @@ const betterAuth = new BetterAuth(adapter, {
   ],
 });
 
-export const { auth } = authMiddleware(betterAuth); // Export the auth middleware
+export const auth = authMiddleware(betterAuth); // Export the auth middleware
