@@ -20,10 +20,8 @@ description: "Task list template for feature implementation"
 
 ## Path Conventions
 
-- **Single project**: `src/`, `tests/` at repository root
-- **Web app**: `backend/src/`, `frontend/src/`
-- **Mobile**: `api/src/`, `ios/src/` or `android/src/`
-- Paths shown below assume single project - adjust based on plan.md structure
+- **Docusaurus project**: `docs/`, `src/components`, `docusaurus.config.js`
+- Paths shown below assume Docusaurus project - adjust based on plan.md structure
 
 <!-- 
   ============================================================================
@@ -83,17 +81,17 @@ Examples of foundational tasks (adjust based on your project):
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T010 [P] [US1] Contract test for [endpoint] in tests/contract/test_[name].py
-- [ ] T011 [P] [US1] Integration test for [user journey] in tests/integration/test_[name].py
+- [ ] T010 [P] [US1] Add a snapshot test for `src/components/FeatureComponent.js`.
+- [ ] T011 [P] [US1] Add a unit test for the logic inside `src/components/FeatureComponent.js`.
 
 ### Implementation for User Story 1
 
-- [ ] T012 [P] [US1] Create [Entity1] model in src/models/[entity1].py
-- [ ] T013 [P] [US1] Create [Entity2] model in src/models/[entity2].py
-- [ ] T014 [US1] Implement [Service] in src/services/[service].py (depends on T012, T013)
-- [ ] T015 [US1] Implement [endpoint/feature] in src/[location]/[file].py
-- [ ] T016 [US1] Add validation and error handling
-- [ ] T017 [US1] Add logging for user story 1 operations
+- [ ] T012 [P] [US1] Create new documentation page at `docs/new-feature/index.mdx`
+- [ ] T013 [P] [US1] Add content and examples to `docs/new-feature/index.mdx` following style guide.
+- [ ] T014 [US1] Create a new React component for this feature in `src/components/FeatureComponent.js`
+- [ ] T015 [US1] Add the component to the sidebar in `docusaurus.config.js`
+- [ ] T016 [US1] Add validation and error handling for component props.
+- [ ] T017 [US1] Add documentation for the new component using comments or a separate `.md` file.
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently
 

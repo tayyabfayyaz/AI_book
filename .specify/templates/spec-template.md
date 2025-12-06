@@ -1,5 +1,7 @@
 # Feature Specification: [FEATURE NAME]
 
+**Note**: When defining the specification, ensure all requirements and scenarios align with the project's [Constitution](/.specify/memory/constitution.md).
+
 **Feature Branch**: `[###-feature-name]`  
 **Created**: [DATE]  
 **Status**: Draft  

@@ -31,7 +31,13 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **CORE PURPOSE**: Does the plan align with generating clean, structured, and SEO-friendly documentation for the Docusaurus Web Book?
+- [ ] **STYLE & FORMATTING**: Does the plan account for Docusaurus-specific Markdown (MDX), callouts, and code blocks?
+- [ ] **STRUCTURE**: Does the proposed output adhere to the mandated response structure (Title, Explanation, Steps, etc.)?
+- [ ] **TECHNICAL**: Does the plan specify correct versions and usage for Docusaurus, Node.js, and GitHub Pages?
+- [ ] **GITHUB PAGES**: Does the plan include steps for `baseUrl` configuration and GitHub Actions deployment?
+- [ ] **QUALITY**: Does the plan emphasize verification of file names and commands, avoiding hallucinations?
+- [ ] **SAFETY**: Does the plan have safeguards against exposing secrets?
 
 ## Project Structure
 
