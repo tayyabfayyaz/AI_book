@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useLocation, Redirect } from '@docusaurus/router';
-import { useAuth } from 'better-auth/react'; // Assuming better-auth/react is compatible with Docusaurus React setup
+import { useAuth } from 'better-auth/react';
 
 function Root({ children }) {
   const { pathname } = useLocation();
