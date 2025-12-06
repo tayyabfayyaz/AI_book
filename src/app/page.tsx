@@ -1,6 +1,6 @@
-import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import Footer from "@/components/Footer";
+import Navbar from "@/src/components/Navbar";
+import HeroSection from "@/src/components/HeroSection";
+import Footer from "@/src/components/Footer";
 
 export default function Home() {
   return (
