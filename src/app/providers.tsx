@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { SessionProvider } from "better-auth/react";
+import { SessionProvider } from "better-auth/client";
 
 console.log(BetterAuthReact); // Log the entire module to the console
 

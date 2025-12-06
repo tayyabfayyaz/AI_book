@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useLocation, Redirect } from '@docusaurus/router';
-import { useAuth } from 'better-auth/react';
+import { useAuth } from 'better-auth/client';
 
 function Root({ children }) {
   const { pathname } = useLocation();

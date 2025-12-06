@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { authMiddleware } from "better-auth/next-js";
+import * as authMiddleware from "better-auth/next";
 
 export const config = {
   matcher: ["/dashboard/:path*", "/book/:path*"], // Protect dashboard and book routes
