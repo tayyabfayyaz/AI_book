@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { useAuth } from "better-auth/react"; // Assuming useAuth from better-auth/react
+import { useAuth } from "better-auth/dist/client/react"; // Assuming useAuth from better-auth/react
 
 export default function SignUpPage() {
   const [email, setEmail] = useState("");
