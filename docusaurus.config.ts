@@ -75,7 +75,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Web Book',
+      title: 'AI Book Knowledge',
       logo: {
         alt: 'Web Book Logo',
         src: 'img/logo.svg',
