@@ -47,7 +47,7 @@ This document outlines the tasks required to completely remove the Next.js proje
 - [x] T017 Delete directory `src/ui-components/`
 - [x] T018 Move all Docusaurus files and directories from `book/book/` to `book/`.
 - [ ] T019 Handle `.gitignore` merge (manual step if conflicts exist).
-- [ ] T020 Delete the now empty `book/book/` directory (if not locked).
+- [x] T020 Delete the now empty `book/book/` directory (if not locked).
 
 ### Phase 2: Foundational
 
@@ -57,8 +57,8 @@ This document outlines the tasks required to completely remove the Next.js proje
 
 #### Tasks
 
-- [ ] T021 Run `npm install` in the Docusaurus root directory to ensure dependencies are correctly installed.
-- [ ] T022 Run Docusaurus build and start commands to verify functionality.
+- [x] T021 Run `npm install` in the Docusaurus root directory to ensure dependencies are correctly installed.
+- [x] T022 Run Docusaurus build and start commands to verify functionality.
 
 ### Final Phase: Polish & Cross-Cutting Concerns
 
@@ -68,7 +68,7 @@ This document outlines the tasks required to completely remove the Next.js proje
 
 #### Tasks
 
-- [ ] T023 Review the Docusaurus site for any broken links or missing assets that might have been part of the Next.js project.
+- [x] T023 Review the Docusaurus site for any broken links or missing assets that might have been part of the Next.js project.
 
 ## Dependencies
 
