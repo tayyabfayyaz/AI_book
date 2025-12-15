@@ -50,6 +50,20 @@ As a user, I want to be able to sign up and sign in, so that I can have a person
 2.  **Given** I am a visitor, **When** I click the "Sign In" button, **Then** I am presented with a sign-in form.
 3.  **Given** I have an account, **When** I fill in the sign-in form correctly, **Then** I am signed in and see my user avatar or name in the navbar.
 
+### User Story 4 - Chat with the Book (Priority: P1)
+
+As a user, I want to be able to ask questions about the book content in a chatbot, so that I can get quick answers and clarifications.
+
+**Why this priority**: It enhances the learning experience and makes the book more interactive.
+
+**Independent Test**: I can open a chatbot interface and ask a question about the book. I should receive a relevant answer based on the book's content.
+
+**Acceptance Scenarios**:
+
+1.  **Given** I am on any page of the book, **When** I click on the chatbot icon, **Then** a chat interface should open.
+2.  **Given** the chat interface is open, **When** I type a question about the book's content and press enter, **Then** I should receive an answer from the chatbot.
+3.  **Given** I have selected a piece of text in the book, **When** I open the chatbot, **Then** the chatbot should offer to answer questions about the selected text.
+
 ## Requirements *(mandatory)*
 
 ### Functional Requirements
@@ -60,6 +74,8 @@ As a user, I want to be able to sign up and sign in, so that I can have a person
 -   **FR-004**: The system MUST have a Footer component with a logo, social links, quick links, and copyright.
 -   **FR-005**: The system MUST use "better-auth" for authentication.
 -   **FR-006**: The system MUST be deployable to GitHub Pages.
+-   **FR-007**: The system MUST have a RAG chatbot that can answer questions about the book's content.
+-   **FR-008**: The chatbot MUST use OpenAI Agents/ChatKit SDKs, FastAPI, Neon Serverless Postgres, and Qdrant Cloud.
 
 ## Success Criteria *(mandatory)*
 

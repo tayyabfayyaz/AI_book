@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Web Book Platform',
-  tagline: 'Your ultimate guide to building a Web Book with Gemini CLI',
+  title: 'Physical AI & Humanoid Robotics',
+  tagline: 'Master the art of building intelligent humanoid robots',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -34,6 +34,7 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
 
   presets: [
     [
@@ -75,11 +76,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'AI Book Knowledge',
-      logo: {
-        alt: 'Web Book Logo',
-        src: 'img/logo.svg',
-      },
+      title: 'Physical AI & Humanoid Robotics',
       items: [
         {
           type: 'docSidebar',
@@ -133,13 +130,31 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Web Book Platform. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en'],
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: '/docs',
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 10,
+        searchResultContextMaxLength: 50,
+        explicitSearchResultPath: true,
+      },
+    ],
+  ],
 };
 
 export default config;
